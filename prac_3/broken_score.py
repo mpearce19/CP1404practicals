@@ -8,7 +8,7 @@ import random
 
 
 def main():
-    """Get a score and display its status"""
+    """Get a score and display its status."""
     score = float(input("Enter score: "))  # got score from user
     print(determine_status(score))
     random_score = random.randint(0, 100)  # got random score

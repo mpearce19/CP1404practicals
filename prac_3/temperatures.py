@@ -1,4 +1,3 @@
-
 """
 CP1404/CP5632 - Practical
 Temperature conversions
@@ -43,4 +42,3 @@ def convert_to_celsius(fahrenheit):
 
 
 main()
-
