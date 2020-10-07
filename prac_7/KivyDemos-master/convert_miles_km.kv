@@ -1,0 +1,26 @@
+BoxLayout:
+    orientation: "vertical"
+    BoxLayout:
+        orientation: "horizontal"
+            TextInput:
+                text: "34"
+                font_size: 48
+                multiline: False
+                on_text: app.handle_calculate(self.text)
+            BoxLayout
+                orientation: "vertical"
+                Button:
+                    text: "up"
+                    on_press: app.handle_increment(input_miles.text, 1)
+                Button:
+                    text: "down"
+                    on_press: app.handle_increment(input_miles.text, -1)
+    Button:
+        text: 'Convert m to km'
+        on_press: app.handle_calculate()
+    Label:
+        text: '54.717'
+        font_size: 40
+        color: (0, 1, 1, 1)
+
+
